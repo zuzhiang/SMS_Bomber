@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+# 不可用于非法用途，使用本程序所产生的后果，与本人概不相关。
 
 import requests
 import re
@@ -148,8 +149,8 @@ class Bomb(object):
 
 
 if __name__ == '__main__':
-    # 手机号列表
-    phoneList=["18621681481"]
+    # 手机号列表，如 ["12345678987","98765432123"]
+    phoneList=[]
     bombNum=1
     while True: # 死循环
         currTime=0
